@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url('https://i.pinimg.com/originals/94/70/b6/9470b6ac2252a19e96f8529efde9ae85.jpg'); /* Замените на свою ссылку */
+            background-size: cover; /* Заполнение фона */
+            background-position: center; /* Центрирование изображения */
+            height: 100vh; /* Задает высоту на весь экран */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white; /* Цвет текста */
+        }
+
+        header {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для читаемости текста */
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        nav {
+            margin-bottom: 20px;
+        }
+
+        .links ul {
+            list-style-type: none; /* Убирает маркеры */
+            padding: 0;
+        }
+
+        .links li {
+            display: inline; /* Размещает элементы в одну строку */
+            margin: 0 15px; /* Отступы между ссылками */
+        }
+
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo"><h1>Logo</h1></div>
+        <div class="links">
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="login-sec">
+            <button>Login</button>
+        </div>
+    </nav>
+
+    <div class="home-content">
+        <h2>Landing Page</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, eveniet.</p>
+        <button id="try-now">Try now</button>
+        <button id="explore">EXPLORE</button>
+    </div>
+</header>
+
+</body>
+</html>
